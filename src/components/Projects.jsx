@@ -15,12 +15,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
+      title: "Freelancer Website",
+      description: "A frontend freelancer solution with React, Tailwind CSS,TS using ShadCN component.",
       longDescription: "A comprehensive e-commerce platform featuring user authentication, product management, shopping cart functionality, payment integration with Stripe, and an admin dashboard. Built with modern technologies and best practices.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-      github: "https://github.com/yourusername/ecommerce",
+      technologies: ["React", "Tailwind CSS","TypeScript"],
+      github: "https://github.com/Ramana-98/Final",
       live: "https://ecommerce-demo.com",
       features: [
         "User Authentication & Authorization",
@@ -33,8 +33,8 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates",
+      title: "Quick-Gig",
+      description: "A hyperlocal platform for temporary and part-time work opportunities",
       longDescription: "A modern task management application that allows teams to collaborate effectively with real-time updates, drag-and-drop functionality, and comprehensive project tracking.",
       image: "/api/placeholder/400/250",
       technologies: ["React", "Firebase", "Material-UI", "Socket.io"],
