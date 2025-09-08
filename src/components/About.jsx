@@ -11,17 +11,19 @@ const About = () => {
   });
 
   const skills = [
+    { name: 'HTML,CSS', level: 95 },
     { name: 'JavaScript', level: 95 },
     { name: 'React', level: 90 },
     { name: 'Node.js', level: 85 },
     { name: 'Python', level: 80 },
     { name: 'UI/UX Design', level: 75 },
     { name: 'Database Design', level: 85 },
+
   ];
 
   const stats = [
-    { number: '50+', label: 'Projects Completed' },
-    { number: '3+', label: 'Years Experience' },
+    { number: '4+', label: 'Projects Completed' },
+    { number: '1+', label: 'Years Experience' },
     { number: '100%', label: 'Client Satisfaction' },
     { number: '24/7', label: 'Support Available' },
   ];
@@ -90,13 +92,17 @@ const About = () => {
                 <div className="w-full h-full rounded-full bg-background"></div>
               </motion.div>
               
-              {/* Profile Image Placeholder */}
+              {/* Profile Image */}
               <motion.div
-                className="absolute inset-2 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex items-center justify-center text-6xl font-bold text-primary"
+                className="absolute inset-2 rounded-full overflow-hidden bg-gradient-to-br from-blue-500/10 to-purple-500/10"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                YN
+                <img
+                  src="/Boy.png"
+                  alt="Ramana - Profile"
+                  className="w-full h-full object-cover object-center"
+                />
               </motion.div>
               
               {/* Floating Elements */}
@@ -122,10 +128,10 @@ const About = () => {
           >
             <motion.div variants={itemVariants}>
               <h3 className="text-2xl font-semibold mb-4">
-                Hi, I'm a <span className="text-primary">Full Stack Developer</span>
+                Hi, I'm a <span className="text-primary">Frontend Developer </span>
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                With over 3 years of experience in web development, I specialize in creating 
+                With over 1 years of experience in Frontend development, I specialize in creating 
                 modern, responsive, and user-friendly applications. I'm passionate about 
                 clean code, innovative solutions, and continuous learning.
               </p>
@@ -133,6 +139,10 @@ const About = () => {
                 When I'm not coding, you can find me exploring new technologies, 
                 contributing to open-source projects, or sharing knowledge with the 
                 developer community.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                I'm always looking for new opportunities to learn and grow,Currently i very interested in AI field like create a AI chatbot,Agent,multi-agent system, so feel free to 
+                reach out if you have any questions or want to chat about my work.
               </p>
             </motion.div>
 

@@ -9,10 +9,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com/yourusername', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/Ramana-98', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/Ramana Athmanathan', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://twitter.com/Ramana', label: 'Twitter' },
+    { icon: Mail, href: 'mailto:ramanasbr98@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -76,9 +76,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-lg">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>your.email@example.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>San Francisco, CA</p>
+              <p>ramanasbr98@gmail.com</p>
+              <p>+91 9655655924</p>
+              <p>Tamilnadu, INDIA</p>
             </div>
             <Button
               variant="glow"
@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div className="border-t pt-8 flex flex-col items-center space-y-4">
           <div className="flex items-center space-x-2 text-muted-foreground">
             <span>© 2024 Portfolio. Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />

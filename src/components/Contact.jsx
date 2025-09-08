@@ -28,19 +28,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'your.email@example.com',
+      value: 'ramanasbr98@gmail.com',
       href: 'mailto:your.email@example.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
+      value: '91+ 9655655924',
       href: 'tel:+15551234567'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Tamilnadu, INDIA',
       href: '#'
     }
   ];
@@ -49,25 +49,25 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/Ramana-98',
       color: 'hover:text-gray-900 dark:hover:text-gray-100'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://linkedin.com/in/Ramana Athmanathan',
       color: 'hover:text-blue-600'
     },
     {
       icon: Twitter,
       label: 'Twitter',
-      href: 'https://twitter.com/yourusername',
+      href: 'https://twitter.com/Ramana',
       color: 'hover:text-blue-400'
     },
     {
       icon: Mail,
       label: 'Email',
-      href: 'mailto:your.email@example.com',
+      href: 'mailto:ramanasbr98@gmail.com',
       color: 'hover:text-red-500'
     }
   ];

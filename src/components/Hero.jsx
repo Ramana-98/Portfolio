@@ -120,7 +120,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed"
         >
-          Passionate about creating innovative solutions and bringing ideas to life through 
+          I'm a Final year Computer science student with a strong passionate about creating innovative solutions and bringing ideas to life through 
           clean code and beautiful design. Let's build something amazing together.
         </motion.p>
 
